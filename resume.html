@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume of Mackenzie Stevens - Information Systems & Decision Sciences (ISDS) candidate at Louisiana State University. Specializing in business systems analysis, database design, and data analytics.">
+  <meta name="author" content="Mackenzie Stevens">
+  <title>Resume & Curriculum Vitae | Mackenzie Stevens | ISDS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>">
+</head>
+<body>
+
+  <!-- Site Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="brand-logo" aria-label="Mackenzie Stevens Homepage">
+          <div class="brand-monogram">MS</div>
+          <div class="brand-name">
+            <span>Mackenzie Stevens</span>
+            <span>ISDS • LSU</span>
+          </div>
+        </a>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main Navigation">
+          <ul class="nav-links" id="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+            <li><a href="project.html" class="nav-link">Project</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Resume Content -->
+  <main>
+    <div class="container">
+      <div class="resume-wrapper">
+
+        <!-- Top Action Bar -->
+        <div class="resume-actions-bar">
+          <div>
+            <span class="section-label" style="margin-bottom:0;">Curriculum Vitae</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+            <a href="index.html" class="btn btn-secondary btn-sm" id="resume-back-btn">
+              &larr; Return to Overview
+            </a>
+            <button onclick="window.print()" class="btn btn-primary btn-sm" id="resume-print-action">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+              Print / Save as PDF
+            </button>
+          </div>
+        </div>
+
+        <!-- Resume Header Card -->
+        <article class="resume-header-card">
+          <div class="resume-name-block">
+            <h1>Mackenzie Stevens</h1>
+            <p class="resume-headline">Information Systems & Decision Sciences Specialist</p>
+            <div class="resume-meta-list">
+              <span class="resume-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Baton Rouge, LA
+              </span>
+              <span class="resume-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                mstevens@lsu.edu
+              </span>
+              <span class="resume-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                (225) 555-0194
+              </span>
+              <span class="resume-meta-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.24c-.92 0-1.67.75-1.67 1.67 0 .92.75 1.68 1.67 1.68.93 0 1.68-.76 1.68-1.68 0-.92-.75-1.67-1.68-1.67Z"/></svg>
+                linkedin.com/in/mackenzie-stevens
+              </span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Education Section -->
+        <section class="resume-section" aria-labelledby="resume-edu-title">
+          <h2 class="resume-section-title" id="resume-edu-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            Education
+          </h2>
+
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="institution-title">Louisiana State University</h3>
+                <p class="degree-title">Bachelor of Science in Information Systems & Decision Sciences (ISDS)</p>
+                <p style="font-size: 0.875rem; color: var(--text-secondary); margin-top: 0.2rem;">
+                  E. J. Ourso College of Business • Minor in Business Administration
+                </p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>Expected May 2026</strong><br>
+                <span>Baton Rouge, LA</span>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li><strong>Academic Standing:</strong> Cumulative GPA: 3.85 / 4.00 | Dean's Honor List (All Semesters).</li>
+              <li><strong>Relevant Coursework:</strong> Database Management Systems (ISDS 3110), Systems Analysis & Design (ISDS 4125), Business Data Communications (ISDS 3100), Advanced Business Analytics, Enterprise Systems Architecture, Cloud Computing & Cybersecurity, Statistics for Business Decision Making.</li>
+              <li><strong>Honors:</strong> LSU Academic Excellence Scholar, E. J. Ourso College of Business Merit Fellowship.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="resume-section" aria-labelledby="resume-exp-title">
+          <h2 class="resume-section-title" id="resume-exp-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            Professional Experience
+          </h2>
+
+          <!-- Role 1 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="job-role">Business Systems Analyst Intern</h3>
+                <p class="company-sub">NexGen Logistics & Supply Solutions</p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>May 2025 – August 2025</strong><br>
+                <span>Baton Rouge, LA</span>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li>Spearheaded data migration and database integrity testing for a legacy inventory tracking database transitioning to PostgreSQL, normalizing 45,000+ records to 3NF.</li>
+              <li>Authored complex SQL queries and automated stored procedures, cutting repetitive daily reporting cycle time by 3.5 hours per business day.</li>
+              <li>Engineered 4 interactive Power BI dashboards for supply chain VP and department leads, tracking vendor lead times, freight expenditures, and SLA compliance.</li>
+              <li>Gathered business requirements across 5 cross-functional teams, producing structured Functional Specification Documents (FSDs) and 30+ Jira user stories.</li>
+            </ul>
+          </div>
+
+          <!-- Role 2 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="job-role">Information Technology Student Specialist</h3>
+                <p class="company-sub">LSU University IT & Computing Services</p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>August 2024 – Present</strong><br>
+                <span>Baton Rouge, LA</span>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li>Provide Tier 1 and Tier 2 hardware, software, and network diagnostic support across 1,200+ university workstations, computer labs, and smart classrooms.</li>
+              <li>Administer Microsoft Active Directory user access rights, group policy objects (GPOs), and multifactor authentication (MFA) protocols for campus faculty and students.</li>
+              <li>Developed automated PowerShell scripts to bulk-provision endpoint machines with standardized laboratory software suites, accelerating imaging times by 35%.</li>
+              <li>Earned Campus IT Services Staff Excellence Recognition for keeping average resolution times under 18 minutes.</li>
+            </ul>
+          </div>
+
+          <!-- Role 3 -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="job-role">Lead Undergraduate Systems Researcher</h3>
+                <p class="company-sub">LSU E. J. Ourso College of Business (ISDS Department)</p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>January 2024 – December 2024</strong><br>
+                <span>Baton Rouge, LA</span>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li>Collaborated directly with ISDS faculty to research predictive modeling algorithms applied to regional distribution networks and seasonal retail demand.</li>
+              <li>Extracted and cleaned large-scale retail datasets (150,000+ records) using Python (Pandas, NumPy), identifying key correlation indices impacting fulfillment bottlenecks.</li>
+              <li>Presented empirical findings at the 2024 Louisiana Business & Analytics Symposium, authoring summary technical documentation and visualization exhibits.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="resume-section" aria-labelledby="resume-cert-title">
+          <h2 class="resume-section-title" id="resume-cert-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            Certifications & Accreditations
+          </h2>
+
+          <div class="cert-grid">
+            <div class="cert-card">
+              <div class="cert-badge-icon">☁️</div>
+              <div class="cert-info">
+                <h4>AWS Certified Cloud Practitioner</h4>
+                <p>Amazon Web Services • Issued 2025</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-badge-icon">📊</div>
+              <div class="cert-info">
+                <h4>Microsoft Certified: Power BI Associate</h4>
+                <p>Microsoft (Exam PL-300) • Issued 2025</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-badge-icon">🛡️</div>
+              <div class="cert-info">
+                <h4>CompTIA Security+</h4>
+                <p>CompTIA • Candidate / Active Preparation (2026)</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-badge-icon">📈</div>
+              <div class="cert-info">
+                <h4>Google Data Analytics Professional</h4>
+                <p>Google Career Certificates • Issued 2024</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Technical Tooling & Skills Section -->
+        <section class="resume-section" aria-labelledby="resume-skills-matrix">
+          <h2 class="resume-section-title" id="resume-skills-matrix">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Technical Tooling & Methodologies
+          </h2>
+
+          <ul class="resume-bullet-list" style="padding-left: 0.5rem; list-style: none;">
+            <li style="margin-bottom: 0.75rem;">
+              <strong>Database Systems:</strong> PostgreSQL, MySQL, Microsoft SQL Server, SQLite, Relational Modeling (1NF to 3NF), Stored Procedures, Indexing & Optimization.
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+              <strong>Analytics & Business Intelligence:</strong> Power BI (DAX, Data Modeling), Tableau Desktop, Advanced MS Excel (VBA/Macros, Power Query, Dynamic Arrays), Python (Pandas, NumPy, Matplotlib, Scikit-Learn).
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+              <strong>Software & Web Development:</strong> HTML5, CSS3, JavaScript (ES6+), RESTful APIs, Git, GitHub, JSON, C# / .NET Fundamentals.
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+              <strong>Enterprise Systems & IT Operations:</strong> AWS (EC2, S3, RDS), SAP ERP Fundamentals, Microsoft Active Directory, Windows Server, Linux/Bash, Jira, Confluence, Visio / Lucidchart (BPMN).
+            </li>
+          </ul>
+        </section>
+
+        <!-- Leadership & Campus Involvement -->
+        <section class="resume-section" aria-labelledby="resume-lead-title">
+          <h2 class="resume-section-title" id="resume-lead-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            Leadership & Campus Involvement
+          </h2>
+
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="job-role">Vice President of Professional Development</h3>
+                <p class="company-sub">Association for Information Systems (AIS) – LSU Student Chapter</p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>August 2024 – Present</strong>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li>Organize technical workshops, SQL hackathons, and guest executive panels for 85+ active student members.</li>
+              <li>Coordinated the annual Tech Career Networking Forum, connecting 20+ corporate recruiters with ISDS students.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card" style="margin-top: 1.25rem;">
+            <div class="exp-header">
+              <div>
+                <h3 class="job-role">Active Member & Mentor</h3>
+                <p class="company-sub">Women in Technology & Analytics (WITA) • LSU</p>
+              </div>
+              <div class="date-location" style="text-align: right;">
+                <strong>August 2023 – Present</strong>
+              </div>
+            </div>
+            <ul class="resume-bullet-list">
+              <li>Mentor underclassmen in core ISDS curriculum, database querying, and resume building.</li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <div class="brand-monogram">MS</div>
+          <div class="brand-name">
+            <span>Mackenzie Stevens</span>
+            <span>Information Systems & Decision Sciences</span>
+          </div>
+        </div>
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="project.html">Project</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mackenzie Stevens. Built for ISDS 4125 at Louisiana State University.</p>
+        <p>Available for Full-time Roles & Summer Opportunities</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Highlight active navigation link
+    const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-links .nav-link').forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === currentPath || (currentPath === '' && href === 'index.html')) {
+        link.classList.add('active');
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+
+    // Mobile navigation toggle
+    const toggleBtn = document.getElementById('mobile-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    if (toggleBtn && navMenu) {
+      toggleBtn.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('open');
+        toggleBtn.setAttribute('aria-expanded', isOpen);
+      });
+    }
+  </script>
+</body>
+</html>
