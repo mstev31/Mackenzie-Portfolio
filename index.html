@@ -32,9 +32,10 @@
 
         <nav class="site-nav" aria-label="Main Navigation">
           <ul class="nav-links" id="nav-menu">
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="resume.html" class="nav-link">Resume</a></li>
-            <li><a href="project.html" class="nav-link">Project</a></li>
+            <li><a href="index.html" class="nav-link">Profile</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -108,11 +109,11 @@
         <!-- MAIN SCROLLABLE CONTENT STREAM -->
         <div class="content-stream">
 
-          <!-- 1. PROFILE & ABOUT SECTION -->
+          <!-- 1. PROFILE SECTION -->
           <section class="stream-section" id="profile" aria-labelledby="profile-heading">
             <div class="section-header">
-              <span class="section-label">Professional Summary</span>
-              <h2 id="profile-heading">Bridging Business Strategy with <span class="gradient-text">Technological Innovation</span></h2>
+              <span class="section-label">Professional Profile</span>
+              <h2 id="profile-heading">Profile: Bridging Business Strategy with <span class="gradient-text">Technological Innovation</span></h2>
               <p class="section-subtitle">Information Systems & Decision Sciences senior at LSU E. J. Ourso College of Business</p>
             </div>
 
@@ -146,6 +147,20 @@
                   <h4>Collaborative Leadership</h4>
                   <p>Agile scrum methodology, stakeholder alignment, and product specifications.</p>
                 </div>
+              </div>
+            </div>
+
+            <div class="section-expansion-cta">
+              <div class="expansion-cta-text">
+                <h4>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"></circle><path d="M5 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                  Explore Mackenzie's Complete Profile & Background
+                </h4>
+                <p>Learn more about my technical background, verified experience, and collaborative opportunities across the site.</p>
+              </div>
+              <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                <a href="skills.html" class="btn btn-secondary btn-sm">Explore Skills &rarr;</a>
+                <a href="experience.html" class="btn btn-primary btn-sm">View Experience &rarr;</a>
               </div>
             </div>
           </section>
@@ -223,13 +238,26 @@
                 </div>
               </div>
             </div>
+
+            <div class="section-expansion-cta">
+              <div class="expansion-cta-text">
+                <h4>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  Looking for In-Depth Proficiency & Certifications?
+                </h4>
+                <p>Expand on these competencies with detailed skill proficiency meters, LSU ISDS coursework mapping, applied project case studies, and formal cloud certifications.</p>
+              </div>
+              <a href="skills.html" class="btn btn-primary btn-sm">
+                View Expanded Skills Page &rarr;
+              </a>
+            </div>
           </section>
 
           <!-- 3. EXPERIENCE SECTION -->
           <section class="stream-section" id="experience" aria-labelledby="experience-heading">
             <div class="section-header">
               <span class="section-label">Work & Leadership</span>
-              <h2 id="experience-heading">Professional <span class="gradient-text">Experience</span></h2>
+              <h2 id="experience-heading">Experience: Professional Roles & <span class="gradient-text">Systems Engineering</span></h2>
               <p class="section-subtitle">Demonstrated track record of delivering measurable outcomes in IT and analytics</p>
             </div>
 
@@ -308,56 +336,69 @@
                 </div>
               </div>
             </div>
-          </section>
 
-          <!-- 4. FEATURED PROJECTS PREVIEW -->
-          <section class="stream-section" id="featured-projects" aria-labelledby="featured-heading">
-            <div class="section-header">
-              <span class="section-label">Portfolio Highlights</span>
-              <h2 id="featured-heading">Featured <span class="gradient-text">Projects</span></h2>
-              <p class="section-subtitle">Real-world systems, data pipelines, and analytics solutions</p>
-            </div>
+            <!-- Featured Capstone Project Showcase (Under Experience) -->
+            <div style="margin-top: 2.25rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle);">
+              <div class="section-header" style="margin-bottom: 1.25rem;">
+                <span class="section-label">Applied Capstone Highlights</span>
+                <h3>Featured Systems & Analytics Implementations</h3>
+              </div>
 
-            <div class="featured-projects-grid">
-              <div class="project-preview-card">
-                <div class="project-thumbnail">
-                  <img src="assets/images/dashboard.jpg" alt="Executive Business Intelligence Dashboard Interface" width="400" height="175">
-                  <span class="project-badge-overlay">BI & Analytics</span>
+              <div class="featured-projects-grid">
+                <div class="project-preview-card">
+                  <div class="project-thumbnail">
+                    <img src="assets/images/dashboard.jpg" alt="Executive Business Intelligence Dashboard Interface" width="400" height="175">
+                    <span class="project-badge-overlay">BI & Analytics</span>
+                  </div>
+                  <div class="project-body">
+                    <h3>Executive Supply Chain & Sales BI Dashboard</h3>
+                    <p>Dynamic Power BI and SQL analytical system delivering real-time visibility into revenue metrics, inventory turnover, and regional margins.</p>
+                    <div class="project-links">
+                      <a href="project.html#bi-dashboard" class="btn btn-secondary btn-sm">Learn More</a>
+                      <a href="experience.html" class="btn btn-primary btn-sm">View in Experience &rarr;</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="project-body">
-                  <h3>Executive Supply Chain & Sales BI Dashboard</h3>
-                  <p>Dynamic Power BI and SQL analytical system delivering real-time visibility into revenue metrics, inventory turnover, and regional margins.</p>
-                  <div class="project-links">
-                    <a href="project.html#bi-dashboard" class="btn btn-secondary btn-sm">Learn More</a>
-                    <a href="project.html" class="btn btn-primary btn-sm">Explore All Projects &rarr;</a>
+
+                <div class="project-preview-card">
+                  <div class="project-thumbnail">
+                    <div style="width:100%; height:100%; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center; color:#38bdf8;">
+                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                    </div>
+                    <span class="project-badge-overlay">Database Systems</span>
+                  </div>
+                  <div class="project-body">
+                    <h3>Enterprise Asset & Inventory Tracking System</h3>
+                    <p>Robust relational database architecture engineered with PostgreSQL, normalized to 3NF, accompanied by an interactive administrative dashboard.</p>
+                    <div class="project-links">
+                      <a href="project.html#asset-tracker" class="btn btn-secondary btn-sm">Learn More</a>
+                      <a href="experience.html" class="btn btn-primary btn-sm">View in Experience &rarr;</a>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="project-preview-card">
-                <div class="project-thumbnail">
-                  <div style="width:100%; height:100%; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); display:flex; align-items:center; justify-content:center; color:#38bdf8;">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
-                  </div>
-                  <span class="project-badge-overlay">Database Systems</span>
-                </div>
-                <div class="project-body">
-                  <h3>Enterprise Asset & Inventory Tracking System</h3>
-                  <p>Robust relational database architecture engineered with PostgreSQL, normalized to 3NF, accompanied by an interactive administrative dashboard.</p>
-                  <div class="project-links">
-                    <a href="project.html#asset-tracker" class="btn btn-secondary btn-sm">Learn More</a>
-                    <a href="project.html" class="btn btn-primary btn-sm">All Projects &rarr;</a>
-                  </div>
-                </div>
+            <!-- Experience Expansion CTA -->
+            <div class="section-expansion-cta">
+              <div class="expansion-cta-text">
+                <h4>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                  Explore Complete Career Journey & Credentials
+                </h4>
+                <p>Discover detailed role deliverables, quantified business impacts, campus leadership in AIS, and academic honors.</p>
               </div>
+              <a href="experience.html" class="btn btn-primary btn-sm">
+                View Expanded Experience &rarr;
+              </a>
             </div>
           </section>
 
-          <!-- 5. CONTACT SECTION -->
+          <!-- 4. CONTACT SECTION -->
           <section class="stream-section" id="contact" aria-labelledby="contact-heading">
             <div class="section-header">
               <span class="section-label">Let's Connect</span>
-              <h2 id="contact-heading">Get in <span class="gradient-text">Touch</span></h2>
+              <h2 id="contact-heading">Contact: Get in <span class="gradient-text">Touch</span></h2>
               <p class="section-subtitle">Open to full-time roles, internships, analytical consulting, and ISDS collaborations</p>
             </div>
 
@@ -423,6 +464,20 @@
                 </div>
               </form>
             </div>
+
+            <!-- Contact Expansion CTA -->
+            <div class="section-expansion-cta" style="margin-top: 2rem;">
+              <div class="expansion-cta-text">
+                <h4>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  Looking for Consultation, Meeting Scheduling or Recruiter FAQ?
+                </h4>
+                <p>Visit the dedicated Contact Portal for hiring manager FAQs, work authorization, LSU campus office location, and virtual meeting bookings.</p>
+              </div>
+              <a href="contact.html" class="btn btn-primary btn-sm">
+                Open Full Contact Portal &rarr;
+              </a>
+            </div>
           </section>
 
         </div>
@@ -442,9 +497,10 @@
           </div>
         </div>
         <nav class="footer-nav" aria-label="Footer Navigation">
-          <a href="index.html">Home</a>
-          <a href="resume.html">Resume</a>
-          <a href="project.html">Project</a>
+          <a href="index.html">Profile</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
       <div class="footer-bottom">
